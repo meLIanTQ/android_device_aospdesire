@@ -117,33 +117,33 @@ PRODUCT_COPY_FILES += \
 
 #Copy Kernel & Modules
 PRODUCT_COPY_FILES += \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/bcm4329.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/nfs/nfs.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/nfs/nfs.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/exportfs/exportfs.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/exportfs/exportfs.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/nfsd/nfsd.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/nfsd/nfsd.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/lockd/lockd.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/lockd/lockd.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/cifs/cifs.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/cifs/cifs.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/fs/fuse/fuse.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/fs/fuse/fuse.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/ipv6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/ipv6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/ah6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/ah6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/esp6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/esp6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/ipcomp6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/ipcomp6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_tunnel.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_tunnel.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/tunnel6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/tunnel6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_transport.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_transport.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_tunnel.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_tunnel.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_beet.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/xfrm6_mode_beet.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/mip6.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/mip6.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/sit.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/sit.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/ipv6/ip6_tunnel.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/ipv6/ip6_tunnel.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/sunrpc/sunrpc.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/sunrpc/sunrpc.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/sunrpc/auth_gss/auth_rpcgss.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/sunrpc/auth_gss/auth_rpcgss.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko:system/lib/modules/2.6.35.4-AOSPDesire/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/Module.symvers:system/lib/modules/2.6.35.4-AOSPDesire/Module.symvers \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/modules.order:system/lib/modules/2.6.35.4-AOSPDesire/modules.order \
-    device/htc/bravo/kernel/2.6.35.4-AOSPDesire/System.map:system/lib/modules/2.6.35.4-AOSPDesire/System.map
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/bcm4329.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/nfs/nfs.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/nfs/nfs.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/exportfs/exportfs.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/exportfs/exportfs.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/nfsd/nfsd.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/nfsd/nfsd.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/lockd/lockd.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/lockd/lockd.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/cifs/cifs.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/cifs/cifs.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/fuse/fuse.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/fuse/fuse.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipv6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipv6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ah6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ah6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/esp6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/esp6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipcomp6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipcomp6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_tunnel.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_tunnel.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/tunnel6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/tunnel6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_transport.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_transport.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_tunnel.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_tunnel.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_beet.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/xfrm6_mode_beet.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/mip6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/mip6.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/sit.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/sit.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ip6_tunnel.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ip6_tunnel.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/sunrpc/sunrpc.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/sunrpc/sunrpc.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/sunrpc/auth_gss/auth_rpcgss.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/sunrpc/auth_gss/auth_rpcgss.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/sunrpc/auth_gss/rpcsec_gss_krb5.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/Module.symvers:system/lib/modules/2.6.35.6-AOSPDesire/Module.symvers \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/modules.order:system/lib/modules/2.6.35.6-AOSPDesire/modules.order \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/System.map:system/lib/modules/2.6.35.6-AOSPDesire/System.map
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := device/htc/bravo/kernel/kernel
