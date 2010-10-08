@@ -125,6 +125,7 @@ PRODUCT_COPY_FILES += \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/lockd/lockd.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/lockd/lockd.ko \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/cifs/cifs.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/cifs/cifs.ko \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/fuse/fuse.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/fuse/fuse.ko \
+    device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/fs/aufs/aufs.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/fs/aufs/aufs.ko \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipv6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ipv6.ko \
     device/htc/bravo/kernel/2.6.35.6-AOSPDesire/kernel/net/ipv6/ah6.ko:system/lib/modules/2.6.35.6-AOSPDesire/kernel/net/ipv6/ah6.ko \
