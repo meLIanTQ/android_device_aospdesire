@@ -56,7 +56,8 @@ BOARD_KERNEL_BASE := 0x20000000
 
 BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
-BOARD_BLUETOOTH_SERVICE := true
+
+BOARD_HAVE_FM_RADIO := true
 
 BOARD_VENDOR_QCOM_AMSS_VERSION := 3200
 
@@ -65,8 +66,6 @@ BOARD_VENDOR_USE_AKMD := akm8973
 BOARD_EGL_CFG := device/htc/bravo/egl.cfg
 
 BOARD_USES_QCOM_LIBS := true
-
-BOARD_HAVE_FM_RADIO := true
 
 # # cat /proc/mtd
 # dev:    size   erasesize  name
