@@ -119,6 +119,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/drivers/net/wireless/bcm4329/bcm4329.ko:system/lib/modules/bcm4329.ko \
     device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko:system/lib/modules/2.6.35.7-AOSPDesire/kernel/fs/nfs_common/nfs_acl.ko \
+    device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/fs/nls/nls_utf8.ko:system/lib/modules/2.6.35.7-AOSPDesire/kernel/fs/nls/nls_utf8.ko \
     device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/fs/nfs/nfs.ko:system/lib/modules/2.6.35.7-AOSPDesire/kernel/fs/nfs/nfs.ko \
     device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/fs/exportfs/exportfs.ko:system/lib/modules/2.6.35.7-AOSPDesire/kernel/fs/exportfs/exportfs.ko \
     device/htc/bravo/kernel/2.6.35.7-AOSPDesire/kernel/fs/nfsd/nfsd.ko:system/lib/modules/2.6.35.7-AOSPDesire/kernel/fs/nfsd/nfsd.ko \

@@ -1,3 +1,4 @@
+kernel/arch/arm/mach-msm/htc_headset.ko
 kernel/kernel/configs.ko
 kernel/fs/mbcache.ko
 kernel/fs/ext4/ext4.ko
@@ -109,6 +110,7 @@ kernel/drivers/serial/bcm_bt_lpm.ko
 kernel/drivers/serial/msm_serial_hs.ko
 kernel/drivers/staging/android/logger.ko
 kernel/drivers/staging/android/timed_gpio.ko
+kernel/drivers/staging/ramzswap/ramzswap.ko
 kernel/drivers/switch/switch_class.ko
 kernel/drivers/switch/switch_gpio.ko
 kernel/drivers/usb/gadget/msm72k_udc.ko
@@ -232,6 +234,8 @@ kernel/lib/libcrc32c.ko
 kernel/lib/ts_kmp.ko
 kernel/lib/ts_bm.ko
 kernel/lib/ts_fsm.ko
+kernel/lib/lzo/lzo_compress.ko
+kernel/lib/lzo/lzo_decompress.ko
 kernel/lib/reed_solomon/reed_solomon.ko
 kernel/lib/zlib_deflate/zlib_deflate.ko
 kernel/lib/zlib_inflate/zlib_inflate.ko
